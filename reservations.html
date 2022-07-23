@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="site css/small.css" />
+    <link rel="stylesheet" href="site css/meduim.css" />
+    <link rel="stylesheet" href="site css/large.css" />
+    <link
+      rel=" shortcut icon"
+      href="D:\wdd230\images\fave icon.ico"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="menu">
+        <button type="button" class="hamb">
+          <span>&#9776;Menu</span>
+        </button>
+        <nav>
+          <ul class="navigation">
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./temple.html">Temple</a></li>
+            <li><a href="./reservations.html">Reservations</a></li>
+            <li><a href="./services.html">Service</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="logo">
+        <h2><q>TI&S</q> Hotel</h2>
+        <picture
+          ><img src="images/logo.png" alt="site logo" loading="lazy"
+        /></picture>
+      </div>
+      <div class="timing"><span class="time"></span></div>
+    </header>
+    <main class="reservations">
+      <div>
+        <!--------------------------Reservation  FORM -------------------------------->
+        <h1>TI&S Hotel Reservation centre</h1>
+        <form action="thannkyou.html" method="get">
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label class="top"> First Name*:</label>
+            <input type="text" name="fname" required />
+            <label class="top"> Last Name*:</label>
+            <input type="text" name="lname" required />
+            <label class="top">Country* </label>
+            <input
+              type="text"
+              name="Country"
+              placeholder="Country"
+              pattern="[ a-z]"
+            />
+            <label class="top"> Email*</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="hello@gmail.com"
+              required
+            />
+            <label class="top">Cell Phone Number*</label>
+            <input
+              type="tel"
+              name="phone"
+              placeholder="(+000)1234567890"
+              required
+            />
+          </fieldset>
+          <fieldset>
+            <legend>Reservations Specifications</legend>
+            <label for="">Temple Location* :</label>
+            <input
+              type="title text"
+              name="location"
+              placeholder="e.g. US,China,South Africa"
+              pattern=""
+              required
+            />
+            <label for="">Date*: </label>
+            <input type="date" name="visiting-date" id="date" required />
+
+            
+              <label for="">Number of Rooms :</label>
+              <input type="number" name="numOfRooms" required />
+              <div id="level">
+              <label class="sbs"
+                ><input
+                  type="checkbox"
+                  name="room type"
+                  id=""
+                  value="small family"
+                />Couple Room</label
+              >
+              <label class="sbs"
+                ><input
+                  type="checkbox"
+                  name="room type"
+                  id=""
+                  value="singles"
+                />Singles room</label
+              >
+              <label class="sbs"
+                ><input
+                  type="checkbox"
+                  name="room type"
+                  id=""
+                  value="small family"
+                />small Family size Rooms</label
+              >
+              <label class="sbs"
+                ><input
+                  type="checkbox"
+                  name="room type"
+                  id=""
+                  value="large family"
+                />
+                large Family Size Room</label
+              >
+              <label class="sbs"
+                ><input
+                  type="checkbox"
+                  name="room type"
+                  value="dometry"
+                />dometry</label
+              >
+            </div>
+
+            <label class="top"
+              >Comments</label>
+              <textarea name="discription" id="" ></textarea>
+          </fieldset>
+          <label for=""
+            ><input type="hidden" id="date" name="date" value="CurrentTime" />
+          </label>
+          <input type="hidden" id="time" name="time" value="CurrentDate" />
+
+          <input type="submit" value="submit Reservation" class="submitBtn" />
+        </form>
+      </div>
+      <div class="comments">
+        <h3>
+          Small family Rooms : Mother, Father, 3 kids below 16years of age
+        </h3>
+        <h3>
+          large Family Room : Mother, Father and 5 kids below 16 years of age
+        </h3>
+        <h3>
+          Dometry: large hall with beds for about 10 peolpe in a room with 5
+          wash rooms
+        </h3>
+      </div>
+    </main>
+    <footer>
+      <div id="top">
+        <div class="logo-footer">
+          <h2><q>TI&S</q> Hotel</h2>
+          <picture
+            ><img src="images/logo.png" alt="site logo" loading="lazy"
+          /></picture>
+        </div>
+        <section id="socials">
+          <a href="https://twitter.com" target="blank"
+            ><img src="images/twitter_icon.webp" alt="twitter icon"
+          /></a>
+          <a href="http://www.facebook.com" target="blank"
+            ><img src="images/fb_icon.webp" alt="facebook icon"
+          /></a>
+        </section>
+        <section id="address">
+          <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+          <map name="site"
+            ><iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370284854!2d-77.09772048528721!3d38.98325594948481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20USA!5e0!3m2!1sen!2sgh!4v1657581410548!5m2!1sen!2sgh"
+              width="250"
+              height="150"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe
+          ></map>
+        </section>
+      </div>
+      <div id="down">
+        &COPY;2022 TI&S Hotel| Agipare Emmanuel | WDD 230 Projects| Last
+        Update:<span id="lastupdate"></span>
+      </div>
+    </footer>
+    <script src="scripts/writing.js"></script>
+  </body>
+</html>

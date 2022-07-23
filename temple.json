@@ -1,0 +1,44 @@
+{
+    "temples": [
+        {
+            "name": "Durban South Africa Temple",
+            "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/durban-south-africa/400x250/4-5fcf64b0979ac41f7197d049ea8c4ffad88cd1b4.jpg",
+            "address": "2 Izinga DriveIzinga Ridge Umhlanga, KwaZulu-Natal, 4021, South Africa",
+            "phone": "(27) 31-140-0240",
+            "email": "none",
+            "services": "No clothing rental available No cafeteria available Patron housing available Distribution center nearb",
+            "history": "Announced : 1 October 2011 ,Groundbreaking : 9 April 2016, Dedicated:16 February 2020,  ",
+            "closure": " Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple."
+        },
+        {
+            "name": "Madrid Spain Temple",
+            "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/madrid-spain/400x250/madrid-spain-temple-lds-780059-wallpaper.jpg",
+            "address": "Calle Del Templo No 2 Madrid, 28030 Madrid, Spain",
+            "phone": "(34) 91-214-2607",
+            "email": "none",
+            "services": "Clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby ",
+            "history": "Announced : 4 April 1993,  Groundbreaking :  11 June 1996, Dedicated : 19 March 1999   ",
+            "closure": " 2022 :  Monday, 6 June 2022 - Monday, 15 August 2022, Saturday, 1 October 2022 (Limited Operations), Saturday, 24 December 2022, Saturday, 31 December 2022. 2023 : Friday, 6 January 2023, Monday, 9 January 2023 - Monday, 30 January 2023, Saturday, 1 April 2023 (Limited Operations), Monday, 5 June 2023 - Monday, 19 June 2023, Saturday, 30 September 2023 (Limited Operations)"
+        },
+        {
+            "name": "Lisbon Portugal Temple",
+            "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lisbon-portugal/400x400/05-487124e93b9858be22b80501b8f152883793d860.jpeg",
+            "address": "Avenida Dom João II, Lote 4.73.01, Parque Das Nacoes, 1998 - 014 Lisboa, Portugal",
+            "phone": "(351) 308-811-650",
+            "email": "none",
+            "services": "No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
+            "history": "Announced : 2 October 2010, Groundbreaking : 5 December 2015, Dedicated : 15 September 2019  ",
+            "closure": "2022 : Monday, 26 September 2022 - Monday, 10 October 2022, Saturday, 24 December 2022, Saturday, 31 December 2022 "
+        },
+        {
+            "name": "Kinshasa Democratic Republic of the Congo Temple",
+            "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/kinshasa-democratic-republic-of-congo/400x250/02-Kinshasa-DRCongo-Temple-2208931.jpg",
+            "address": "50 Croisement Avenue de l’ OUA / Milolo Quartier Basoko GB Commune de Ngaliema, Ville de Kinshasa, Democratic Republic of Congo",
+            "phone": "(243) 815-590-060",
+            "email": "none",
+            "services": "Clothing rental available No cafeteria available Patron housing available Distribution center nearby",
+            "history": "Announced :1 October 2011, Groundbreaking : 12 February 2016, Dedicated : 14 April 2019  ",
+            "closure": "2022 : Monday, 17 October 2022 - Monday, 31 October 2022, 2023, Tuesday, 17 January 2023, Monday, 27 March 2023 - Monday, 10 April 2023, Friday, 30 June 2023, Tuesday, 1 August 2023, Monday, 16 October 2023 - Monday, 30 October 2023 "
+        }
+    ]
+}

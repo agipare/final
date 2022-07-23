@@ -1,0 +1,32 @@
+@media only screen and (min-width: 32.5rem){
+    /******************************FOOTER STYLING************************/
+footer{display: flex;
+    flex-direction: column;
+}
+
+#top{display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+align-items: center;
+}
+.logo-footer{grid-row: 1;
+grid-column: 1;
+padding:5px;
+ margin: 5px;
+display: flex;
+flex-direction: row;
+
+}
+.logo-footer img{border-radius: 50%;
+height:100px;
+
+}
+
+#socials{
+grid-column: 2;
+align-items: center;
+}
+div#down{
+border-top: 5px solid black;
+display: inline;
+}
+}
